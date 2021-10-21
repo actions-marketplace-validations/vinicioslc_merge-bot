@@ -1,5 +1,5 @@
 {
-  "name": "github-actions",
+  "name": "automerge-action",
   "version": "0.2.1",
   "description": "",
   "main": "index.js",
@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/squalrus/merge-bot.git"
+    "url": "git+https://github.com/vinicioslc/merge-bot.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/squalrus/merge-bot/issues"
+    "url": "https://github.com/vinicioslc/merge-bot/issues"
   },
-  "homepage": "https://github.com/squalrus/merge-bot#readme",
+  "homepage": "https://github.com/vinicioslc/merge-bot#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0"

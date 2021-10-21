@@ -1,15 +1,15 @@
-name: 'PR Merge Bot'
-description: 'Merge pull requests when certain conditions are met'
+name: 'PR AutoMerge Bot'
+description: 'Merge pull requests when certain conditions are met automagically'
 branding:
   icon: 'git-merge'
-  color: 'purple'
+  color: 'orange'
 inputs:
   test:
     description: 'Runs in test mode and will comment rather than merge'
     required: false
     default: 'false'
   labels:
-    description: 'Labels required for integration'
+    description: 'Labels required for integration, if "ignore" text provided, the PR will be merged in first oportunity'
     required: true
     default: 'ready'
   blocking_labels:
